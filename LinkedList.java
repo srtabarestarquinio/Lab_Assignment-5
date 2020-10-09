@@ -57,6 +57,10 @@ public class LinkedList<T> implements List<T>{
 	}
 	//Get : This takes in an integer position which then returns the node at that position in the list. If the position is invalid, return null
 	public ListNode get(int position){
+		//error check
+		///
+		///
+
 		Node curr = head;
 		for (int i = 0; i<position; i++){
 			curr = curr.next;
@@ -65,6 +69,9 @@ public class LinkedList<T> implements List<T>{
 	}
 	//Remove: The function takes in an integer position , which it then both removes and returns the ListNode at that position
 	public ListNode remove(int position){
+		//Error exception
+		//
+		//
 		if (position == 0){
 			Node node = head;
 			head = head.next;
